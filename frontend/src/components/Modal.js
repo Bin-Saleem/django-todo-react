@@ -19,7 +19,7 @@ export default class CustomModal extends Component {
         };
     }
 
-    handlChenge = (e) => {
+    handleChange = (e) => {
         let { name, value } = e.target;
 
         if (e.target.type === "checkbox") {
